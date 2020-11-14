@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(rgb(115, 168, 238), rgb(11, 12, 12));
+    align-items: center;
+    padding-top: 20vh;
+}
+
+.final::before {
+    content: "NEW PASSWORD: ";
+    color: rgb(12, 231, 96);
+    font-size: 20px;
+}
+
+.container {
+    width: 20vw;
+    height: 50vh;
+    background-color: rgb(108, 173, 216);
+    box-shadow: 0 10px 10px 0 rgba(224, 229, 204, 0.2), 0 6px 20px 0 rgba(116, 199, 237, 0.19);
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.container ul li {
+    padding-bottom: 1rem;
+}
+
+
+/* #counter {
+    text-align: center;
+    font-size: 80px;
+    color: cyan;
+    text-shadow: 0 1rem 1rem rgb(34, 31, 31);
+} */
+
+#password {
+    font-size: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 1rem 1rem rgb(29, 23, 23);
+}
+
+#gener {
+    font-size: 1rem;
+    padding: 4px;
+    border-radius: 10px;
+    box-shadow: 0 1rem 1rem rgb(29, 23, 23);
+}
+
+#title {
+    text-align: center;
+    padding: 1rem;
+    color: rgb(126, 225, 245);
+    text-shadow: 5px 5px 5px rgb(49, 97, 4);
+}
+
+.ready {
+    position: relative;
+    text-align: center;
+    font-size: 80px;
+    color: cyan;
+    text-shadow: 0 1rem 1rem rgb(34, 31, 31);
+    transition: font-size 2s;
+}
+
+#warning {
+    width: 50vw;
+    /* background-color: yellow; */
+    top: 5rem;
+    left: 25vw;
+    position: absolute;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(244, 248, 115);
+    text-shadow: 5px 5px 5px rgb(57, 99, 120);
+    font-weight: 800;
+}
+
+
+/* .ready::before {
+    position: absolute;
+    content: "Ready";
+    font-size: 20px;
+    top: 0;
+    left: 0;
+} */
+
+.not_ready {
+    text-align: center;
+    font-size: 80px;
+    color: cyan;
+    text-shadow: 0 1rem 1rem rgb(34, 31, 31);
+}
